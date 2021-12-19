@@ -37,8 +37,10 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.5",
-    "@babel/preset-typescript": "^7.16.5",
-    "@types/jest": "^27.0.3",
-    "@types/mocha": "^9.0.0"
+    "@babel/preset-react": "^7.16.5",
+    "@babel/preset-typescript": "^7.16.5"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }
